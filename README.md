@@ -1,11 +1,11 @@
-﻿# Skuvra Public
+# Skuvra Public
 
-This repository contains the public Skuvra website, public legal documents, and official Windows download releases.
+This repository contains the public Skuvra website, legal documents, and the current official Windows download file.
 
-The Skuvra application source code is not stored in this public repository. Official downloads are published from this repository's GitHub Releases page.
+The Skuvra application source code is not stored in this public repository. Public download buttons point directly to the Windows `.exe` instead of a GitHub Releases page because GitHub automatically adds source-code archives to release pages.
 
 - Website: https://www.skuvra.com
-- Latest download: https://github.com/plpk/skuvra-public/releases/latest
+- Latest download: https://www.skuvra.com/downloads/Skuvra.exe
 - Terms: TERMS_OF_USE.md
 - Privacy: PRIVACY.md
 - Security: SECURITY.md
