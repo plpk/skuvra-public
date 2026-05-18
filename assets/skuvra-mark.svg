@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Skuvra">
+  <defs>
+    <linearGradient id="skuvra-mark-gradient" x1="8" y1="6" x2="56" y2="58" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2563eb"/>
+      <stop offset="1" stop-color="#7c3aed"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="56" height="56" rx="15" fill="url(#skuvra-mark-gradient)"/>
+  <path d="M21.5 42.4c2.7 2.3 6.4 3.6 10.4 3.6 5.9 0 10.7-3 10.7-8.1 0-4.6-3.3-6.6-9.1-8.1-4.2-1.1-5.6-1.9-5.6-3.6 0-1.8 1.7-2.9 4.3-2.9 2.7 0 5.2.9 7.6 2.5v-7.1c-2.2-1.2-5-1.9-8.2-1.9-5.9 0-10.5 3.2-10.5 8.2 0 4.5 3 6.6 8.8 8.1 4.3 1.1 5.9 1.9 5.9 3.8 0 1.8-1.8 2.8-4.5 2.8-3.4 0-6.7-1.2-9.8-3.6v7.3z" fill="#fff"/>
+</svg>
