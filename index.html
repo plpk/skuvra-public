@@ -3,19 +3,100 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Skuvra | Free Windows cleanup that scans first</title>
+    <title>Skuvra | Free Windows Cleanup Utility</title>
     <meta
       name="description"
-      content="Skuvra is a free Windows cleanup utility that scans first, explains results in plain English, and lets you choose what changes."
+      content="Skuvra is a free Windows cleanup utility for PC maintenance. Scan junk files, browser data, startup apps, duplicates, and careful tools before cleaning."
     />
+    <meta name="robots" content="index, follow" />
+    <meta name="application-name" content="Skuvra" />
+    <link rel="canonical" href="https://www.skuvra.com/" />
     <meta name="theme-color" content="#f7fbff" />
-    <meta property="og:title" content="Skuvra" />
+    <meta property="og:site_name" content="Skuvra" />
+    <meta property="og:title" content="Skuvra | Free Windows Cleanup Utility" />
     <meta
       property="og:description"
-      content="A calmer Windows cleanup app. Scan first, review clearly, then choose what to clean."
+      content="A calmer Windows cleanup app for junk files, browser data, startup apps, duplicates, and careful PC maintenance."
     />
+    <meta property="og:url" content="https://www.skuvra.com/" />
     <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://www.skuvra.com/assets/screenshots/health-check.png" />
+    <meta property="og:image:alt" content="Skuvra Health Check screen showing PC status, cleanup findings, and safe next steps." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Skuvra | Free Windows Cleanup Utility" />
+    <meta
+      name="twitter:description"
+      content="Scan first, review clearly, then choose what to clean on Windows."
+    />
+    <meta name="twitter:image" content="https://www.skuvra.com/assets/screenshots/health-check.png" />
     <link rel="icon" href="./assets/skuvra-mark.svg" type="image/svg+xml" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://www.skuvra.com/#organization",
+            "name": "Skuvra",
+            "url": "https://www.skuvra.com/",
+            "logo": "https://www.skuvra.com/assets/skuvra-mark.svg",
+            "sameAs": [
+              "https://github.com/plpk/skuvra-public"
+            ]
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://www.skuvra.com/#website",
+            "url": "https://www.skuvra.com/",
+            "name": "Skuvra",
+            "publisher": {
+              "@id": "https://www.skuvra.com/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://www.skuvra.com/#webpage",
+            "url": "https://www.skuvra.com/",
+            "name": "Skuvra | Free Windows Cleanup Utility",
+            "description": "Skuvra is a free Windows cleanup utility for PC maintenance. Scan junk files, browser data, startup apps, duplicates, and careful tools before cleaning.",
+            "isPartOf": {
+              "@id": "https://www.skuvra.com/#website"
+            },
+            "about": {
+              "@id": "https://www.skuvra.com/#software"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "SoftwareApplication",
+            "@id": "https://www.skuvra.com/#software",
+            "name": "Skuvra",
+            "description": "A free Windows cleanup and PC maintenance utility that scans first, explains results, and keeps careful actions confirmed.",
+            "url": "https://www.skuvra.com/",
+            "downloadUrl": "https://www.skuvra.com/downloads/Skuvra.exe",
+            "image": [
+              "https://www.skuvra.com/assets/screenshots/health-check.png",
+              "https://www.skuvra.com/assets/screenshots/startup-apps.png",
+              "https://www.skuvra.com/assets/screenshots/careful-actions.png"
+            ],
+            "applicationCategory": "UtilitiesApplication",
+            "operatingSystem": "Windows",
+            "softwareVersion": "0.1.0",
+            "isAccessibleForFree": true,
+            "publisher": {
+              "@id": "https://www.skuvra.com/#organization"
+            },
+            "offers": {
+              "@type": "Offer",
+              "url": "https://www.skuvra.com/downloads/Skuvra.exe",
+              "price": "0",
+              "priceCurrency": "USD"
+            }
+          }
+        ]
+      }
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -970,7 +1051,9 @@
 
       .footer-links {
         display: flex;
-        gap: 16px;
+        flex-wrap: wrap;
+        gap: 8px 16px;
+        justify-content: flex-end;
         font-weight: 700;
         color: var(--ink-soft);
       }
@@ -1156,6 +1239,10 @@
           justify-content: center;
           padding: 24px 0;
         }
+
+        .footer-links {
+          justify-content: flex-start;
+        }
       }
 
       @media (prefers-reduced-motion: no-preference) {
@@ -1213,7 +1300,6 @@
           <a href="#safety">Safety</a>
           <a href="#screenshots">Screenshots</a>
           <a href="#features">Features</a>
-          <a href="#legal">Legal</a>
           <a href="#download">Download</a>
           <a href="https://github.com/plpk/skuvra-public/issues">Support</a>
         </div>
@@ -1318,7 +1404,7 @@
       <div class="hero-content">
         <h1>Skuvra</h1>
         <p class="hero-lede">
-          A free Windows cleanup app that scans first, explains plainly, and lets you decide what changes.
+          A free Windows cleanup utility for PC maintenance that scans first, explains plainly, and lets you decide what changes.
         </p>
         <div class="hero-actions">
           <a class="button primary" href="/downloads/Skuvra.exe">
@@ -1340,7 +1426,7 @@
         <div class="hero-proof" aria-label="Product principles">
           <span class="proof-item">Free for Windows</span>
           <span class="proof-item">Preview before cleanup</span>
-          <span class="proof-item">Official downloads</span>
+          <span class="proof-item">Source available</span>
         </div>
       </div>
     </section>
@@ -1351,7 +1437,7 @@
           <div class="section-heading">
             <h2>Cleanup software should feel calm.</h2>
             <p>
-              Skuvra avoids scare tactics. It shows useful information, explains what matters, and keeps high-impact actions separate from everyday cleanup.
+              Skuvra avoids scare tactics. It shows useful Windows cleanup information, explains what matters, and keeps high-impact actions separate from everyday PC maintenance.
             </p>
           </div>
 
@@ -1436,7 +1522,7 @@
           <div class="feature-rail">
             <h2>Useful tools, without the panic.</h2>
             <p>
-              Skuvra is built for common Windows maintenance: clearing clutter, understanding startup apps, reviewing browser data, and keeping careful tools available when you need them.
+              Skuvra is built for common Windows maintenance: junk file cleanup, startup app review, browser cleanup, duplicate file checks, and careful tools when you need them.
             </p>
           </div>
 
@@ -1516,19 +1602,19 @@
         </div>
       </section>
 
-      <section class="section alt" id="legal">
+      <section class="section alt" id="about">
         <div class="section-inner">
           <div class="legal-panel">
             <div class="legal-copy">
-              <h2>Official downloads, source by request.</h2>
+              <h2>About Skuvra.</h2>
               <p>
-                Skuvra is proprietary freeware. The public site contains legal docs and the official Windows download. Source access may be provided separately for transparency, privacy, or security review; redistribution, modified builds, rebranding, resale, and commercial deployment still require permission.
+                Skuvra is free Windows preview software from the official download on this site. Source access can be shared separately for transparency, privacy, or security review; please ask before sharing modified builds or using Skuvra commercially.
               </p>
-              <div class="legal-links" aria-label="Legal documents">
+              <div class="legal-links" aria-label="About and privacy links">
                 <a href="https://github.com/plpk/skuvra-public/blob/main/SOURCE_ACCESS.md">Source access</a>
-                <a href="https://github.com/plpk/skuvra-public/blob/main/TERMS_OF_USE.md">Terms</a>
-                <a href="https://github.com/plpk/skuvra-public/blob/main/PRIVACY.md">Privacy</a>
-                <a href="https://github.com/plpk/skuvra-public/blob/main/SECURITY.md">Security</a>
+                <a href="https://github.com/plpk/skuvra-public/blob/main/PRIVACY.md">Privacy statement</a>
+                <a href="https://github.com/plpk/skuvra-public/blob/main/TERMS_OF_USE.md">Use terms</a>
+                <a href="https://github.com/plpk/skuvra-public/blob/main/SECURITY.md">Security reports</a>
               </div>
             </div>
             <div class="legal-list">
@@ -1541,8 +1627,8 @@
                 <span>Current releases do not include Skuvra telemetry or analytics.</span>
               </div>
               <div class="legal-item">
-                <strong>As-is software</strong>
-                <span>Cleanup actions are user-confirmed and provided without warranties.</span>
+                <strong>User-confirmed actions</strong>
+                <span>Cleanup actions stay preview-first and run only after you choose them.</span>
               </div>
             </div>
           </div>
@@ -1584,7 +1670,7 @@
                 </div>
                 <div>
                   <dt>Source</dt>
-                  <dd>By request</dd>
+                  <dd>Available</dd>
                 </div>
                 <div>
                   <dt>License</dt>
@@ -1652,13 +1738,12 @@
         <div class="footer-links">
           <a href="https://github.com/plpk/skuvra-public/issues">Support</a>
           <a href="/downloads/Skuvra.exe">Download</a>
+          <a href="#about">About Skuvra</a>
           <a href="https://github.com/plpk/skuvra-public/issues">Issues</a>
-          <a href="https://github.com/plpk/skuvra-public/blob/main/PRIVACY.md">Privacy</a>
-          <a href="https://github.com/plpk/skuvra-public/blob/main/TERMS_OF_USE.md">Terms</a>
+          <a href="https://github.com/plpk/skuvra-public/blob/main/PRIVACY.md">Privacy statement</a>
+          <a href="https://github.com/plpk/skuvra-public/blob/main/TERMS_OF_USE.md">Use terms</a>
         </div>
       </div>
     </footer>
   </body>
 </html>
-
-

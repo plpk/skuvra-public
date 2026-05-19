@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.skuvra.com/</loc>
+    <lastmod>2026-05-18</lastmod>
+    <image:image>
+      <image:loc>https://www.skuvra.com/assets/screenshots/health-check.png</image:loc>
+      <image:title>Skuvra Health Check screen</image:title>
+      <image:caption>Skuvra shows PC status, cleanup findings, and safe next steps before cleaning.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.skuvra.com/assets/screenshots/startup-apps.png</image:loc>
+      <image:title>Skuvra Startup Apps screen</image:title>
+      <image:caption>Skuvra separates Windows startup items into keep, optional, review, and needs-attention groups.</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.skuvra.com/assets/screenshots/careful-actions.png</image:loc>
+      <image:title>Skuvra Careful Actions screen</image:title>
+      <image:caption>Skuvra keeps registry, update, process, and wipe tools separate from everyday cleanup.</image:caption>
+    </image:image>
+  </url>
+</urlset>
