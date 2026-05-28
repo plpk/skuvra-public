@@ -1,10 +1,11 @@
 # Skuvra Privacy Statement
 
-Last updated: 2026-05-18
+Last updated: 2026-05-28
 
 Skuvra is designed as a local-first Windows cleanup and maintenance utility.
-Current official releases do not include telemetry, analytics, advertising,
-tracking SDKs, remote accounts, cloud sync, or automatic upload of scan results.
+Current official app releases do not include in-app telemetry, in-app
+analytics, advertising, tracking SDKs, remote accounts, cloud sync, or automatic
+upload of scan results.
 
 This statement describes the current intended privacy behavior of official
 Skuvra releases.
@@ -74,6 +75,14 @@ network independently of Skuvra, including:
 Those tools and services may have their own privacy behavior, prompts, logs, and
 terms.
 
+## Public Website Analytics
+
+The public website at `https://www.skuvra.com` uses Cloudflare Web Analytics to
+measure basic site usage and page performance for the website. This website
+analytics is separate from the Windows app. It is not used to collect Skuvra
+scan results, cleanup selections, local file paths, browser profile contents,
+passwords, cookies, tokens, or other local app data.
+
 ## No Sale of Personal Information
 
 Current official releases do not sell personal information and do not share
@@ -87,7 +96,7 @@ public issue.
 
 ## Future Changes
 
-If Skuvra later adds telemetry, crash reporting, cloud features, accounts,
-update checks controlled by Skuvra, or other networked data collection, this
-privacy statement should be updated before release and the app should make the
-change clear to users.
+If the Windows app later adds telemetry, crash reporting, cloud features,
+accounts, update checks controlled by Skuvra, or other networked data
+collection, this privacy statement should be updated before release and the app
+should make the change clear to users.

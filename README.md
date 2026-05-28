@@ -6,6 +6,7 @@ The Skuvra application source code is not stored in this public repository. Publ
 
 - Website: https://www.skuvra.com
 - Latest download: https://www.skuvra.com/downloads/Skuvra.exe
+- Website analytics: free Cloudflare Web Analytics is enabled through a manual JavaScript snippet in `index.html`; Skuvra app releases remain local-first and do not include in-app telemetry.
 - Terms: TERMS_OF_USE.md
 - Privacy: PRIVACY.md
 - Security: SECURITY.md
