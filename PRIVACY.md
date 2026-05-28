@@ -61,7 +61,7 @@ clear cleanup option for them.
 
 ## Network Activity
 
-Current official releases do not send Skuvra telemetry or analytics to the
+Current official app releases do not send Skuvra telemetry or analytics to the
 copyright holder.
 
 Some features invoke Windows or Microsoft-provided tools that may use the
@@ -85,7 +85,7 @@ passwords, cookies, tokens, or other local app data.
 
 ## No Sale of Personal Information
 
-Current official releases do not sell personal information and do not share
+Current official app releases do not sell personal information and do not share
 Skuvra scan results with advertisers, data brokers, or analytics providers.
 
 ## Security Reports
